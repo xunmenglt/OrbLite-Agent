@@ -1,0 +1,17 @@
+[llm]
+model = "gemini-3-flash-preview"
+base_url = "https://api.vveai.com/v1"
+interface_url ="/chat/completions"
+api_key = "sk-O9xzSAQ4mKSeWnH3Ae50388dC08548239e80E591668168Ac"
+max_tokens = 12800
+temperature = 0.7
+
+[orb_lite_planner]
+max_steps = 40
+model_name = "gemini-3-flash-preview"
+close_update = true
+
+[orb_lite_executor]
+max_steps = 40
+model_name = "gemini-3-flash-preview"
+max_observe = 10000
